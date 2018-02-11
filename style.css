@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background: #f8f8f8;
+}
+
+a {
+  color: #1daf19;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #1daf19;
+  margin: 40px 0;
+}
+
+p {
+  margin: 0;
+  color: #7a7a7a;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.heading {
+  text-align: center;
+  background: white url('images/header.jpg') no-repeat;
+  background-size: 100% 68%;
+  height: 500px;
+}
+
+img#profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 170px;
+}
+
+.heading #mail img {
+  width: 36px;
+  height: 36px;
+}
+
+.heading #mail a {
+  line-height: 36px;
+  vertical-align: top;
+}
+
+.heading h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.heading h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0 0 0;
+}
+
+.container {
+  max-width: 600px;
+  padding: 12px 32px 32px 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article {
+  margin-bottom: 100px;
+  min-height: 200px;
+}
+
+.article h3 {
+  margin: 0 0 10px 0;
+}
+
+.article img {
+  width: 250px;
+  height: 200px;
+}
+
+.image-left img {
+  float: left;
+  margin-right: 20px;
+}
+
+.image-right img {
+  float: right;
+  margin-left: 20px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #1daf19;
+  color: white;
+}
