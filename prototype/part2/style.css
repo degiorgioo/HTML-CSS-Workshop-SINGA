@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: rgb(175, 173, 173);
+}
+
+p {
+  margin: 0;
+  color: #7a7a7a;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.heading {
+  background: #9bd0df;
+  text-align: center;
+  color: white;
+  border-top: 10px solid white;
+  box-shadow: 9px 9px 39px -12px rgba(0, 0, 0, 0.75);
+}
+
+#name {
+  padding-top: 50px;
+}
+
+#profession {
+  padding-top: 30px;
+}
+
+#aboutme {
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: white;
+  font-size: 30px;
+  background-color: #3d879b;
+  border-top: 25px solid #3275b0;
+}
+
+img#profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 50px;
+  box-shadow: 4px 3px 8px 0px rgba(255, 255, 255, 0.75);
+}
+
+.heading #mail img {
+  width: 36px;
+  height: 36px;
+}
+
+.heading #mail a {
+  line-height: 36px;
+  vertical-align: top;
+}
+
+.heading h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.heading h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0 0 0;
+}

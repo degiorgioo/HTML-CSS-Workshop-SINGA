@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  background: #9bd0df;
+  text-align: center;
+  color: white;
+  border-top: 10px solid white;
+  box-shadow: 9px 9px 39px -12px rgba(0, 0, 0, 0.75);
+}
+
+#name {
+  padding-top: 50px;
+}
+
+#profession {
+  padding-top: 30px;
+}
+
+img#profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 50px;
+  box-shadow: 4px 3px 8px 0px rgba(255, 255, 255, 0.75);
+}
+
+.heading h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.heading h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0 0 0;
+}
